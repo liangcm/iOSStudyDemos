@@ -13,8 +13,8 @@
 		DF0E86E515498A4D00B37A7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF0E86E315498A4D00B37A7B /* InfoPlist.strings */; };
 		DF0E86E715498A4D00B37A7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0E86E615498A4D00B37A7B /* main.m */; };
 		DF0E86EB15498A4D00B37A7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0E86EA15498A4D00B37A7B /* AppDelegate.m */; };
-		DF0E86EE15498A4D00B37A7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0E86ED15498A4D00B37A7B /* ViewController.m */; };
-		DF0E86F115498A4D00B37A7B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0E86EF15498A4D00B37A7B /* ViewController.xib */; };
+		DF0E86FA15498A8C00B37A7B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0E86F815498A8C00B37A7B /* TableViewController.m */; };
+		DF0E86FB15498A8C00B37A7B /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0E86F915498A8C00B37A7B /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +28,9 @@
 		DF0E86E815498A4D00B37A7B /* SimpleTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTableView-Prefix.pch"; sourceTree = "<group>"; };
 		DF0E86E915498A4D00B37A7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF0E86EA15498A4D00B37A7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF0E86EC15498A4D00B37A7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF0E86ED15498A4D00B37A7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DF0E86F015498A4D00B37A7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DF0E86F715498A8C00B37A7B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DF0E86F815498A8C00B37A7B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DF0E86F915498A8C00B37A7B /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +79,10 @@
 			children = (
 				DF0E86E915498A4D00B37A7B /* AppDelegate.h */,
 				DF0E86EA15498A4D00B37A7B /* AppDelegate.m */,
-				DF0E86EC15498A4D00B37A7B /* ViewController.h */,
-				DF0E86ED15498A4D00B37A7B /* ViewController.m */,
-				DF0E86EF15498A4D00B37A7B /* ViewController.xib */,
 				DF0E86E115498A4D00B37A7B /* Supporting Files */,
+				DF0E86F715498A8C00B37A7B /* TableViewController.h */,
+				DF0E86F815498A8C00B37A7B /* TableViewController.m */,
+				DF0E86F915498A8C00B37A7B /* TableViewController.xib */,
 			);
 			path = SimpleTableView;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF0E86E515498A4D00B37A7B /* InfoPlist.strings in Resources */,
-				DF0E86F115498A4D00B37A7B /* ViewController.xib in Resources */,
+				DF0E86FB15498A8C00B37A7B /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +162,7 @@
 			files = (
 				DF0E86E715498A4D00B37A7B /* main.m in Sources */,
 				DF0E86EB15498A4D00B37A7B /* AppDelegate.m in Sources */,
-				DF0E86EE15498A4D00B37A7B /* ViewController.m in Sources */,
+				DF0E86FA15498A8C00B37A7B /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +175,6 @@
 				DF0E86E415498A4D00B37A7B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DF0E86EF15498A4D00B37A7B /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF0E86F015498A4D00B37A7B /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
