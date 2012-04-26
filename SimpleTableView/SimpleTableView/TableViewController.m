@@ -130,6 +130,13 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      */
+    
+    int index = [indexPath row];
+    NSString *msg = [listData objectAtIndex:index];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:msg message:@"hello" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Hello", nil];
+    [alert show];
+    [alert release];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end
