@@ -30,8 +30,11 @@
 		DFAAA6BF15FC525A00089345 /* BIDRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA6BE15FC51E200089345 /* BIDRowControlsController.m */; };
 		DFAAA6C215FC52CB00089345 /* BIDMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA6C115FC52C300089345 /* BIDMoveMeController.m */; };
 		DFF8FCB015FCDF580063CA0C /* BIDDeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8FCAF15FCDF580063CA0C /* BIDDeleteMeController.m */; };
-		DFF8FCB415FCE1460063CA0C /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFF8FCB215FCE1460063CA0C /* computers.plist */; };
-		DFF8FCB515FCE1460063CA0C /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFF8FCB315FCE1460063CA0C /* Presidents.plist */; };
+		DFF8FCC215FCE4D50063CA0C /* BIDPresidentDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8FCC115FCE4D50063CA0C /* BIDPresidentDetailController.m */; };
+		DFF8FCC515FCE7C60063CA0C /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFF8FCC315FCE7C60063CA0C /* computers.plist */; };
+		DFF8FCC615FCE7C60063CA0C /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFF8FCC415FCE7C60063CA0C /* Presidents.plist */; };
+		DFF8FCC915FCE7EF0063CA0C /* BIDPresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8FCC815FCE7E50063CA0C /* BIDPresidentsViewController.m */; };
+		DFF8FCCC15FCE9750063CA0C /* BIDPresident.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8FCCB15FCE9720063CA0C /* BIDPresident.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,8 +73,14 @@
 		DFAAA6C115FC52C300089345 /* BIDMoveMeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDMoveMeController.m; sourceTree = "<group>"; };
 		DFF8FCAE15FCDF580063CA0C /* BIDDeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDeleteMeController.h; sourceTree = "<group>"; };
 		DFF8FCAF15FCDF580063CA0C /* BIDDeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDeleteMeController.m; sourceTree = "<group>"; };
-		DFF8FCB215FCE1460063CA0C /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
-		DFF8FCB315FCE1460063CA0C /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
+		DFF8FCC015FCE4D50063CA0C /* BIDPresidentDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPresidentDetailController.h; sourceTree = "<group>"; };
+		DFF8FCC115FCE4D50063CA0C /* BIDPresidentDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPresidentDetailController.m; sourceTree = "<group>"; };
+		DFF8FCC315FCE7C60063CA0C /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+		DFF8FCC415FCE7C60063CA0C /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
+		DFF8FCC715FCE7E50063CA0C /* BIDPresidentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDPresidentsViewController.h; sourceTree = "<group>"; };
+		DFF8FCC815FCE7E50063CA0C /* BIDPresidentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDPresidentsViewController.m; sourceTree = "<group>"; };
+		DFF8FCCA15FCE9720063CA0C /* BIDPresident.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDPresident.h; sourceTree = "<group>"; };
+		DFF8FCCB15FCE9720063CA0C /* BIDPresident.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDPresident.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +100,6 @@
 		DFAAA65F15FC2C5500089345 = {
 			isa = PBXGroup;
 			children = (
-				DFF8FCB215FCE1460063CA0C /* computers.plist */,
-				DFF8FCB315FCE1460063CA0C /* Presidents.plist */,
 				DFAAA67415FC2C5600089345 /* Nav */,
 				DFAAA66D15FC2C5500089345 /* Frameworks */,
 				DFAAA66B15FC2C5500089345 /* Products */,
@@ -120,6 +127,10 @@
 		DFAAA67415FC2C5600089345 /* Nav */ = {
 			isa = PBXGroup;
 			children = (
+				DFF8FCCA15FCE9720063CA0C /* BIDPresident.h */,
+				DFF8FCCB15FCE9720063CA0C /* BIDPresident.m */,
+				DFF8FCC315FCE7C60063CA0C /* computers.plist */,
+				DFF8FCC415FCE7C60063CA0C /* Presidents.plist */,
 				DFAAA6C015FC52C300089345 /* BIDMoveMeController.h */,
 				DFAAA6C115FC52C300089345 /* BIDMoveMeController.m */,
 				DFAAA6BD15FC51E200089345 /* BIDRowControlsController.h */,
@@ -129,6 +140,8 @@
 				DFAAA67E15FC2C5600089345 /* BIDAppDelegate.m */,
 				DFAAA67515FC2C5600089345 /* Supporting Files */,
 				DFAAA68D15FC33C400089345 /* BIDFirstLevelController.h */,
+				DFF8FCC715FCE7E50063CA0C /* BIDPresidentsViewController.h */,
+				DFF8FCC815FCE7E50063CA0C /* BIDPresidentsViewController.m */,
 				DFAAA68E15FC33C400089345 /* BIDFirstLevelController.m */,
 				DFAAA69015FC33FC00089345 /* BIDSecondLevelViewController.h */,
 				DFAAA69115FC33FC00089345 /* BIDSecondLevelViewController.m */,
@@ -141,6 +154,8 @@
 				DFAAA6B015FC46C600089345 /* BIDCheckListController.m */,
 				DFF8FCAE15FCDF580063CA0C /* BIDDeleteMeController.h */,
 				DFF8FCAF15FCDF580063CA0C /* BIDDeleteMeController.m */,
+				DFF8FCC015FCE4D50063CA0C /* BIDPresidentDetailController.h */,
+				DFF8FCC115FCE4D50063CA0C /* BIDPresidentDetailController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -233,8 +248,8 @@
 				DFAAA6A215FC3A5600089345 /* moveMeIcon.png in Resources */,
 				DFAAA6A315FC3A5600089345 /* rowControlsIcon.png in Resources */,
 				DFAAA6AE15FC3D2C00089345 /* BIDDisclosureDetail.xib in Resources */,
-				DFF8FCB415FCE1460063CA0C /* computers.plist in Resources */,
-				DFF8FCB515FCE1460063CA0C /* Presidents.plist in Resources */,
+				DFF8FCC515FCE7C60063CA0C /* computers.plist in Resources */,
+				DFF8FCC615FCE7C60063CA0C /* Presidents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +270,9 @@
 				DFAAA6BF15FC525A00089345 /* BIDRowControlsController.m in Sources */,
 				DFAAA6C215FC52CB00089345 /* BIDMoveMeController.m in Sources */,
 				DFF8FCB015FCDF580063CA0C /* BIDDeleteMeController.m in Sources */,
+				DFF8FCC215FCE4D50063CA0C /* BIDPresidentDetailController.m in Sources */,
+				DFF8FCC915FCE7EF0063CA0C /* BIDPresidentsViewController.m in Sources */,
+				DFF8FCCC15FCE9750063CA0C /* BIDPresident.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
