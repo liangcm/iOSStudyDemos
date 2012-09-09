@@ -9,7 +9,8 @@
 #import "BIDFirstLevelController.h"
 #import "BIDSecondLevelViewController.h"
 #import "BIDDisclosureButtonController.h"
-#include "BIDCheckListController.h"
+#import "BIDCheckListController.h"
+#import "BIDRowControlsController.h"
 
 @interface BIDFirstLevelController ()
 
@@ -46,6 +47,13 @@
     checkListController.title = @"Check One";
     checkListController.rowImage = [UIImage imageNamed:@"checkmarkControllerIcon.png"];
     [array addObject:checkListController];
+    
+    // Table Row Controls
+    BIDRowControlsController *rowControlsController =
+    [[BIDRowControlsController alloc] initWithStyle:UITableViewStylePlain];
+    rowControlsController.title = @"Row Controls";
+    rowControlsController.rowImage = [UIImage imageNamed:@"rowControlsIcon.png"];
+    [array addObject:rowControlsController];
     
     self.controllers = array;
 }
