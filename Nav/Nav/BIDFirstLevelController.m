@@ -9,6 +9,7 @@
 #import "BIDFirstLevelController.h"
 #import "BIDSecondLevelViewController.h"
 #import "BIDDisclosureButtonController.h"
+#include "BIDCheckListController.h"
 
 @interface BIDFirstLevelController ()
 
@@ -35,8 +36,16 @@
     // Disclosure Button
     BIDDisclosureButtonController *disclosureButtonController =
     [[BIDDisclosureButtonController alloc] initWithStyle:UITableViewStylePlain];
-    disclosureButtonController.title = @"Disclosure Buttons"; disclosureButtonController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon.png"];
+    disclosureButtonController.title = @"Disclosure Buttons";
+    disclosureButtonController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon.png"];
     [array addObject:disclosureButtonController];
+    
+    // Checklist
+    BIDCheckListController *checkListController =
+    [[BIDCheckListController alloc] initWithStyle:UITableViewStylePlain];
+    checkListController.title = @"Check One";
+    checkListController.rowImage = [UIImage imageNamed:@"checkmarkControllerIcon.png"];
+    [array addObject:checkListController];
     
     self.controllers = array;
 }
