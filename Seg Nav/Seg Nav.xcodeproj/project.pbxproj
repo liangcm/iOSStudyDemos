@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF77FB221600D6C30093F91E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF77FB211600D6C30093F91E /* UIKit.framework */; };
+		DF77FB241600D6C30093F91E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF77FB231600D6C30093F91E /* Foundation.framework */; };
+		DF77FB261600D6C30093F91E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF77FB251600D6C30093F91E /* CoreGraphics.framework */; };
+		DF77FB2C1600D6C30093F91E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF77FB2A1600D6C30093F91E /* InfoPlist.strings */; };
+		DF77FB2E1600D6C30093F91E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF77FB2D1600D6C30093F91E /* main.m */; };
+		DF77FB321600D6C30093F91E /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF77FB311600D6C30093F91E /* BIDAppDelegate.m */; };
+		DF77FB391600D6FA0093F91E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF77FB381600D6FA0093F91E /* MainStoryboard.storyboard */; };
+		DF77FB3E1600DB860093F91E /* BIDTaskDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF77FB3D1600DB860093F91E /* BIDTaskDetailController.m */; };
+		DF77FB431600E30D0093F91E /* BIDTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF77FB3B1600DB420093F91E /* BIDTaskListController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF77FB1D1600D6C30093F91E /* Seg Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seg Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF77FB211600D6C30093F91E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF77FB231600D6C30093F91E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF77FB251600D6C30093F91E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF77FB291600D6C30093F91E /* Seg Nav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seg Nav-Info.plist"; sourceTree = "<group>"; };
+		DF77FB2B1600D6C30093F91E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF77FB2D1600D6C30093F91E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF77FB2F1600D6C30093F91E /* Seg Nav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seg Nav-Prefix.pch"; sourceTree = "<group>"; };
+		DF77FB301600D6C30093F91E /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		DF77FB311600D6C30093F91E /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		DF77FB381600D6FA0093F91E /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DF77FB3A1600DB420093F91E /* BIDTaskListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDTaskListController.h; sourceTree = "<group>"; };
+		DF77FB3B1600DB420093F91E /* BIDTaskListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDTaskListController.m; sourceTree = "<group>"; };
+		DF77FB3C1600DB860093F91E /* BIDTaskDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskDetailController.h; sourceTree = "<group>"; };
+		DF77FB3D1600DB860093F91E /* BIDTaskDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskDetailController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF77FB1A1600D6C30093F91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF77FB221600D6C30093F91E /* UIKit.framework in Frameworks */,
+				DF77FB241600D6C30093F91E /* Foundation.framework in Frameworks */,
+				DF77FB261600D6C30093F91E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF77FB121600D6C30093F91E = {
+			isa = PBXGroup;
+			children = (
+				DF77FB271600D6C30093F91E /* Seg Nav */,
+				DF77FB201600D6C30093F91E /* Frameworks */,
+				DF77FB1E1600D6C30093F91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF77FB1E1600D6C30093F91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF77FB1D1600D6C30093F91E /* Seg Nav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF77FB201600D6C30093F91E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF77FB211600D6C30093F91E /* UIKit.framework */,
+				DF77FB231600D6C30093F91E /* Foundation.framework */,
+				DF77FB251600D6C30093F91E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF77FB271600D6C30093F91E /* Seg Nav */ = {
+			isa = PBXGroup;
+			children = (
+				DF77FB3A1600DB420093F91E /* BIDTaskListController.h */,
+				DF77FB3B1600DB420093F91E /* BIDTaskListController.m */,
+				DF77FB301600D6C30093F91E /* BIDAppDelegate.h */,
+				DF77FB311600D6C30093F91E /* BIDAppDelegate.m */,
+				DF77FB281600D6C30093F91E /* Supporting Files */,
+				DF77FB381600D6FA0093F91E /* MainStoryboard.storyboard */,
+				DF77FB3C1600DB860093F91E /* BIDTaskDetailController.h */,
+				DF77FB3D1600DB860093F91E /* BIDTaskDetailController.m */,
+			);
+			path = "Seg Nav";
+			sourceTree = "<group>";
+		};
+		DF77FB281600D6C30093F91E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF77FB291600D6C30093F91E /* Seg Nav-Info.plist */,
+				DF77FB2A1600D6C30093F91E /* InfoPlist.strings */,
+				DF77FB2D1600D6C30093F91E /* main.m */,
+				DF77FB2F1600D6C30093F91E /* Seg Nav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF77FB1C1600D6C30093F91E /* Seg Nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF77FB351600D6C30093F91E /* Build configuration list for PBXNativeTarget "Seg Nav" */;
+			buildPhases = (
+				DF77FB191600D6C30093F91E /* Sources */,
+				DF77FB1A1600D6C30093F91E /* Frameworks */,
+				DF77FB1B1600D6C30093F91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seg Nav";
+			productName = "Seg Nav";
+			productReference = DF77FB1D1600D6C30093F91E /* Seg Nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF77FB141600D6C30093F91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = com.apress;
+			};
+			buildConfigurationList = DF77FB171600D6C30093F91E /* Build configuration list for PBXProject "Seg Nav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF77FB121600D6C30093F91E;
+			productRefGroup = DF77FB1E1600D6C30093F91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF77FB1C1600D6C30093F91E /* Seg Nav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF77FB1B1600D6C30093F91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF77FB2C1600D6C30093F91E /* InfoPlist.strings in Resources */,
+				DF77FB391600D6FA0093F91E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF77FB191600D6C30093F91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF77FB2E1600D6C30093F91E /* main.m in Sources */,
+				DF77FB321600D6C30093F91E /* BIDAppDelegate.m in Sources */,
+				DF77FB3E1600DB860093F91E /* BIDTaskDetailController.m in Sources */,
+				DF77FB431600E30D0093F91E /* BIDTaskListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF77FB2A1600D6C30093F91E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF77FB2B1600D6C30093F91E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF77FB331600D6C30093F91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF77FB341600D6C30093F91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF77FB361600D6C30093F91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seg Nav/Seg Nav-Prefix.pch";
+				INFOPLIST_FILE = "Seg Nav/Seg Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF77FB371600D6C30093F91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seg Nav/Seg Nav-Prefix.pch";
+				INFOPLIST_FILE = "Seg Nav/Seg Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF77FB171600D6C30093F91E /* Build configuration list for PBXProject "Seg Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF77FB331600D6C30093F91E /* Debug */,
+				DF77FB341600D6C30093F91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF77FB351600D6C30093F91E /* Build configuration list for PBXNativeTarget "Seg Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF77FB361600D6C30093F91E /* Debug */,
+				DF77FB371600D6C30093F91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF77FB141600D6C30093F91E /* Project object */;
+}
